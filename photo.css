@@ -1,0 +1,35 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://i.postimg.cc/c4kmCsF1/people-2597454-640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.16);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+
+  animation-name: bg-change;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+  overflow: hidden;
+}
+
+@keyframes bg-change {
+  from {
+    background-image: url(https://i.postimg.cc/mDfh5hKD/couple-silhouette-sunset-scenery-digital-art-4k-wallpaper-uhdpaper-com-777-0-i.jpg);
+  }
+
+  to {
+    background-image: url(https://wallpapers.com/images/featured/i-miss-you-fzbe8r4a31uso39s.webp
+)
+
+;
+  }
+}
